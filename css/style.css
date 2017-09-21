@@ -1,6 +1,6 @@
 
 body {
-	height: 4500px;
+	height: 4200px;
 
 	margin: 0px;
 	margin-top: -1px;
@@ -23,11 +23,6 @@ header{
 	background-size: 100% 100%;
 	background-attachment: fixed;
 }
-
-
-
-
-
 
 .wrapper1{
 	width: 100%;
@@ -183,6 +178,7 @@ header{
 
 	outline-style: none;
 	border: 1px solid white;
+
 
 	cursor: pointer;
 
@@ -406,7 +402,7 @@ header{
 	width :100%;
 	height: 700px;
 
-	background-color: #eee;
+	background: url(../images/work2.jpg) 100% no-repeat fixed;
 }
 
 .works nav {
@@ -421,7 +417,7 @@ header{
 	height: 50px;
 
 	padding-top: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 75px;
 
 	text-align: center;
 }
@@ -542,10 +538,6 @@ header{
 	height: 60%;
 
 	margin-top: 50px;
-
-
-
-
 }
 
 .wrapper {
@@ -559,4 +551,137 @@ header{
 
 .active {
 	display: block;
+}
+
+/*____section__contacts_______*/
+
+.contacts {
+	width: 100%;
+	height: 730px;
+
+	background-color: #cec
+}
+
+.contacts__title {
+	width: 100%;
+	height: 50px;
+
+	padding-top: 15px;
+	margin-bottom: 75px;
+
+	text-align: center;
+}
+
+.contacts__title span {
+	font-family: 'Cormorant SC', serif;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	height: 400px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+input {
+	display: inline-block;
+
+	width: 400px;
+	height: 35px;
+
+	color: white;
+
+	margin-top: -10px;
+
+	border: none;
+	border-radius: 10px;
+	outline-style: none;
+
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#inp__text {
+	display: block;
+	width: 400px;
+	height: 200px;
+	
+	color: white;
+
+	border: none;
+	border-radius: 10px;
+	outline-style: none;
+	resize: none;
+
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.contacts__info {
+	width: 350px;
+	height: 400px;
+
+	margin-top: 15px;
+
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.contacts__info ul {
+	list-style: none;
+
+	padding-left: 0;
+
+}
+
+.contacts__info ul li {
+	width: 100%;
+
+	margin-bottom: 15px;
+
+	border: 1px dashed red;
+}
+
+.contacts__info ul li img {
+	display: inline-block;
+}
+
+.contacts__info ul li a {
+	display: inline-block;
+
+	text-decoration: none;
+
+	color: white;
+}
+
+.contacts__icons {
+	width: 100%;
+	height: 50px;
+
+	margin-top: 40px;
+
+	background-color: red;
+}
+
+/*______footer____________*/
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	color: white;
+	font-family: 'Kaushan Script';
+	font-weight: 900;
+	font-size: 40px;
+
+	background-color: black;
 }
