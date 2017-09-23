@@ -402,7 +402,12 @@ header{
 	width :100%;
 	height: 700px;
 
-	background: url(../images/work2.jpg) 100% no-repeat fixed;
+	text-align: center;
+
+	background: url(../images/work2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 .works nav {
@@ -428,18 +433,24 @@ header{
 	font-weight: 600;
 }
 
+.works__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .works__content {
 	width: 100%;
 	height: 400px;
 
-	padding: 0% 10%;
 
-	margin-bottom: 15px;
+
+
 }
 
 .viewport {
 	
-    display: table;
+    display: inline-block;
     position: relative;
     overflow: hidden;
     -webkit-user-select: none;
@@ -498,12 +509,12 @@ header{
 }
 
 .slide__button {
-	width: 200px;
-	height: 30px;
+	width: 30px;
+	height: 200px;
 
 	display: inline-block;
-
-
+	
+	margin-top: 55px;
 	color: white;
 
 	background-color: rgba(0, 0, 0, 0.9);
