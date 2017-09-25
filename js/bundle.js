@@ -31,7 +31,7 @@ $(function() {
 });
 
 
-
+/*___________Slider buttons(next/prev)_____________*/
 $(function() {
 	var slideNow = 1;
 	var slideCount = $('.slide__area').children().length;

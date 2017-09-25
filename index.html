@@ -27,7 +27,7 @@
 
 <body>
 
-	<header >
+	<header id="firstpage">
 		
 		<div class="wrapper1">
 
@@ -39,23 +39,25 @@
 				<div class="MToggle">
 					<div>Menu</div>
 				</div>
+				<nav>
 				<ul class="buttons">
 					<li>
-						<a href="#a">About</a>
+						<a href="javascript://" onclick="slowScroll('#about')" > About</a>
 					</li>
 					<li>
-							<a href="#s">Service</a>
+							<a href="javascript://" onclick="slowScroll('#service')">Service</a>
 					</li>
 					<li>
-							<a href="#w">Works</a>
+							<a href="javascript://" onclick="slowScroll('#works')">Works</a>
 					</li>
 					<li>
-							<a href="#b">Reviews</a>
+							<a href="javascript://" onclick="slowScroll('#reviews')">Reviews</a>
 					</li>
 					<li>
-							<a href="#c">Contacts</a>
+							<a href="javascript://" onclick="slowScroll('#contacts')">Contacts</a>
 					</li>
 				</ul>
+				</nav>
 			</div>
 		
 
@@ -74,7 +76,7 @@
 	</div>
 	</header>
 
-	<section class="about">
+	<section class="about" id="about">
 
 		<nav>
 		
@@ -86,8 +88,8 @@
 			<div class="info">
 
 				<h2>
-					<span>Меня зовут Алексей.</span><br>
-					 <p>фронт-енд разработчик</p>
+					<span>Меня зовут Алексей</span><br>
+					 <p> начинающий фронт-енд разработчик</p>
 				</h2>
 
 
@@ -127,15 +129,15 @@
 		</nav>
 	</section>
 
-	<section class="service">
+	<section class="service" id="service">
 
 		<div class="service__title"><span>Услуги</span></div>
 
 		<div class="service__blocks">
 			<div class="content-block">
-				<div class="text">
-					<p class="service__main">Посадка макета на Wordpress</p>
-					<div class="service__description">
+				<div class="text col-lg-12 col-md-10 col-sm-8">
+					<p class="service__main row-fluid">Посадка макета на Wordpress</p>
+					<div class="service__description row-fluid">
 						Посадка любого макета на CMS Wordpress.
 					</div>
 				</div>
@@ -143,9 +145,9 @@
 			</div>
 
 			<div class="content-block">
-				<div class="text">
-					<p class="service__main">Адаптивный макет сайта</p>
-					<div class="service__description">
+				<div class="text col-lg-12 col-md-10 col-sm-8">
+					<p class="service__main row-fluid">Адаптивный макет сайта</p>
+					<div class="service__description row-fluid">
 						Качественный адаптив под любые мониторы и<br>мобильные устройства.
 					</div>
 				</div>
@@ -156,9 +158,9 @@
 
 		<div class="service__blocks">
 			<div class="content-block">
-				<div class="text">
-					<p class="service__main">Правка уже готового макета</p>
-					<div class="service__description">
+				<div class="text col-lg-12 col-md-10 col-sm-8">
+					<p class="service__main row-fluid">Правка уже готового макета</p>
+					<div class="service__description row-fluid">
 						Исправляю ошибки, дополняю
 					</div>
 				</div>
@@ -166,9 +168,9 @@
 			</div>
 
 			<div class="content-block">
-				<div class="text">
-					<p class="service__main">Оптимизация скорости загрузки</p>
-					<div class="service__description">
+				<div class="text col-lg-12 col-md-10 col-sm-8">
+					<p class="service__main row-fluid">Оптимизация скорости загрузки</p>
+					<div class="service__description row-fluid">
 						Повышение производительности и скорости загрузки вашего сайта. 
 					</div>
 
@@ -183,7 +185,7 @@
 		</div>
 	</section>
 	
-	<section class="works">
+	<section class="works" id="works">
 		<nav>
 		<div class="works__title"><span>Портфолио</span></div>	
 		
@@ -237,7 +239,7 @@
 		</nav>
 	</section>
 
-	<section class="reviews">
+	<section class="reviews" id="reviews">
 		<nav>
 			<div class="reviews__title">
 				<span>Отзывы</span>
@@ -266,7 +268,7 @@
 		</nav>
 	</section>
 
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 		<div class="contacts__title">
 			<span>Контакты</span>
 		</div>
@@ -339,5 +341,6 @@
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="bootstrap/bsjs/bootstrap.min.js"></script>
 	<script src="js/bundle.js" ></script>
+	<script src="js/nav.js"></script>
 </body>
 </html>
