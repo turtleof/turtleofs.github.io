@@ -30,6 +30,20 @@ $(function() {
 	}); 
 });
 
+/*_____________scrollbox_______________*/
+
+$(document).ready(function(){
+	$(window).scroll(function() {
+		var i = $('body').scrollTop();
+
+		if(i > 1000) {
+			$('.scrollbox, #up').animate({height: "show"});
+		}
+		else {
+			$('.scrollbox, #up').animate({height: "hide"});
+		}
+	});
+});
 
 /*___________Slider buttons(next/prev)_____________*/
 $(function() {
@@ -74,8 +88,6 @@ $(function() {
 			}
 	}
 
-	
-
 	$('#prev').on('click', function(){
 		prevSlide();
 		
@@ -85,6 +97,5 @@ $(function() {
 		nextSlide();
 	})
 });
-
 
 
