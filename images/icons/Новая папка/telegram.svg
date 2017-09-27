@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-labelledby="simpleicons-telegram-icon"
+   role="img"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="telegram.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="730"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="288"
+     inkscape:window-y="171"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg24" />
+  <title
+     id="simpleicons-telegram-icon">Telegram icon</title>
+  <path
+     d="M19.189 16.035c.855-2.34 3.99-11.234 4.491-13.566.57-2.641-.621-2.895-3.331-2.01-2.706.885-9.652 3.457-10.821 3.873-1.171.416-6.86 2.328-8.04 2.897C-.922 8.523.25 10.496 2.943 11.52c8.055 3.864 5.768 1.896 9.363 9.048.738 1.826 2.483 4.939 4.154 2.585.879-1.337 2.055-5.279 2.73-7.12l-.001.002z"
+     id="path22" />
+  <path
+     style="fill:#ffffff;stroke-width:0.10169491"
+     d="M 14.326183,23.58656 C 13.694799,23.104987 13.056016,22.084895 12.05056,19.952542 9.7265327,15.023796 9.5905486,14.802759 8.4614562,14.11859 8.1424011,13.92526 6.8288136,13.279274 5.5423729,12.683065 1.8793695,10.985426 1.6039567,10.843922 1.1007873,10.401014 0.49371319,9.8666463 0.15720451,9.1967181 0.24929324,8.705843 0.3507834,8.1648539 0.95690103,7.5623038 1.779661,7.1844828 2.5351669,6.8375457 4.2676626,6.2033959 7.8305085,4.9696759 9.0330508,4.5532671 11.527119,3.6625318 13.372881,2.9902643 20.950001,0.23051025 22.102649,-0.11523185 22.957899,0.11519464 24.330664,0.48505317 24.07086,1.858703 20.900049,10.995555 17.137191,21.838424 16.969739,22.28843 16.377601,23.149073 15.794399,23.996727 15.06726,24.151798 14.326183,23.58656 Z"
+     id="path32"
+     inkscape:connector-curvature="0" />
+</svg>

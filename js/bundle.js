@@ -14,6 +14,23 @@ btnMenu.onclick = function() {
 
 */
 
+$(function() {
+	$('#get__button').on('click', function() {
+		$('.popup__form').slideToggle(300, function() {
+			if($(this).css('display') === 'none') {
+				$(this).css('display') = 'block';
+			}
+		});
+		return false;
+	});
+
+	$('.popup__form').on('click', function(){
+			$('.popup__form').css('display') = 'none';
+		
+	});
+});
+
+
 
 /*________show adaptive menu_______________________*/
 $(function() {
@@ -26,7 +43,7 @@ $(function() {
 
 				$(this).removeAttr('style');
 			}
-		})
+		});
 	}); 
 });
 
@@ -37,7 +54,9 @@ $(document).ready(function(){
 		var i = $('body').scrollTop();
 
 		if(i > 1000) {
-			$('.scrollbox, #up').animate({height: "show"});
+			$('.scrollbox, #up').animate({
+				height: "show"
+			});
 		}
 		else {
 			$('.scrollbox, #up').animate({height: "hide"});
