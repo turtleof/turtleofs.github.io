@@ -51,7 +51,7 @@ $(function() {
 
 $(document).ready(function(){
 	$(window).scroll(function() {
-		var i = $('body').scrollTop();
+		var i = $('html, body').scrollTop();
 
 		if(i > 1000) {
 			$('.scrollbox, #up').animate({
